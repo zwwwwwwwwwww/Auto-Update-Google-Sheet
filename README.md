@@ -59,8 +59,8 @@ Step 4:
 
 ![image](https://github.com/user-attachments/assets/9dd969b9-295f-4e0c-9f74-4f5805190fe6)
 
-
-Write the Script ---->
+NOTE: REPLACE THE githubUrl and TOKEN in both function to your owned : OWNER = your username eg.zwwwwwwwwwww REPO = your repository name eg.Auto-Update-Google-Sheet
+Write the Script (COPY THIS INTO YOUR SCRIPT) ---->
 function updateGitHub() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   var data = sheet.getDataRange().getValues();
